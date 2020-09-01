@@ -1,8 +1,8 @@
 <template>
     <div class="card">
         <h3>{{ position.instrument.replace('_', '/') }}</h3>
-        <div class="position-prop">LONG@{{ position.long.averagePrice }}</div>
-        <div class="position-prop">SHRT@{{ position.short.averagePrice }}</div>
+        <div class="position-prop">LONG {{ position.long.units }}@{{ position.long.averagePrice }}</div>
+        <div class="position-prop">SHRT {{ position.long.units }}@{{ position.short.averagePrice }}</div>
         <div class="position-prop">Financing: {{ position.financing }}</div>
         <div class="position-prop">Div Adj: {{ position.dividendAdjustment }}</div>
         <div class="position-prop">Margin: {{ position.marginUsed }}</div>
