@@ -1,24 +1,9 @@
 # oanda-stat
 
-## Project setup
-```
-npm install
-```
+An Oanda account monitoring tool
 
-### Compiles and hot-reloads for development
+TODOs
 ```
-npm run serve
+- Account selection
+- Alerts
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
